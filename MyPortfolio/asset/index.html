@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.com/libraries/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Socheat | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">SOCHEAT</div>
+        <button class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+        <button class="btns" onclick="location.href='#contact'">Contact</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="main-container">
+            <div class="image">
+                <img src="/image/Pic.jpg" alt="Socheat Profile">
+            </div>
+            <div class="content">
+                <h1>Hello I'm <span>Socheat</span></h1>
+                <div class="designation">I'm a <span>UX/UI Designer</span></div>
+                <p class="tagline">"Good design makes life easier, not harder"</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="row mt-5">
+                <div class="col-lg-10">
+                    <p class="about-text">
+                        Hello, I'm <span class="highlight">Socheat</span>. As a freshman UX/UI designer dedicated to transforming complex ideas into simple, intuitive, and accessible digital experiences. I am passionate  about making technology more inclusive and easier to use for everyone. I am seeking opportunities to contribute to real-world projects where I can apply my research and prototyping skills to solve user problems.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item" style="animation-delay: 0.2s;">
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022 - Present</div>
+                        <div class="timeline-title">Bachelor's Degree in Computer Science</div>
+                        <div class="timeline-subtitle">Royal University of Phnom Penh</div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" style="animation-delay: 0.4s;">
+                    <div class="timeline-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Certificate of Completion</div>
+                        <div class="timeline-title">C++/OOP/Algorithm & Project Course</div>
+                        <div class="timeline-subtitle">Etec Center</div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" style="animation-delay: 0.6s;">
+                    <div class="timeline-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Certificate of Completion</div>
+                        <div class="timeline-title">General English Program</div>
+                        <div class="timeline-subtitle">Spring Education Center</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills & Tools</h2>
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="skill-category">
+                        <h3 class="skill-category-title"><i class="fas fa-palette"></i> Design</h3>
+                        <div>
+                            <span class="skill-tag">Figma</span>
+                            <span class="skill-tag">Canva</span>
+                            <span class="skill-tag">CapCut</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3 class="skill-category-title"><i class="fas fa-code"></i> Development</h3>
+                        <div>
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">Visual Studio Code</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3 class="skill-category-title"><i class="fas fa-search"></i> Research</h3>
+                        <div>
+                            <span class="skill-tag">User Interviewing</span>
+                            <span class="skill-tag">Persona Mapping</span>
+                            <span class="skill-tag">Wireframing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="row mt-5">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <div class="contact-info">
+                        <h3>Let's Connect</h3>
+                        <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                        
+                        <div class="contact-detail">
+                            <i class="fas fa-envelope"></i>
+                            <ion-icon name="mail-outline"></ion-icon>
+                            
+                            <a href="sengtonsocheat@gmail.com"><span> sengtonsocheat@gmail.com</span></a>
+                        </div>
+                        
+                        <div class="contact-detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <ion-icon name="location-outline"></ion-icon>
+                            <span> Phnom Penh, Cambodia</span>
+                        </div>
+                        
+                        <div class="social-links">
+                            <h5 style="color: var(--white); margin-bottom: 1rem;">Follow Me</h5>
+                            
+                            <a href="https://github.com" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                            
+                            <a href="https://linkedin.com" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                            
+                            <a href="https://web.facebook.com/?_rdc=1&_rdr#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-7">
+                    <div class="contact-form">
+                        <h3>Send a Message</h3>
+                        <div class="success-message" id="successMessage">
+                            <i class="fas fa-check-circle"></i> Thank you! Your message has been sent successfully.
+                        </div>
+                        <form id="contactForm">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn-submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p style="margin: 0; color: var(--light);">
+                &copy; 2026 Socheat. Designed & Built with passion.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
